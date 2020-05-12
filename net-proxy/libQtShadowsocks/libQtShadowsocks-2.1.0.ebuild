@@ -4,8 +4,8 @@ inherit cmake-utils
 MY_PV=${PV/_beta/beta}
 
 DESCRIPTION="A lightweight and ultra-fast shadowsocks library written in C++/Qt  -- Manually Editted by zijian"
-HOMEPAGE="https://github.com/shadowsocks/libQtShadowsocks"
-#SRC_URI="https://github.com/UEForce/myebuilds/tree/master/net-proxy/libQtShadowsocks/files/v${MY_PV}.tar.gz -> ${P}.tar.gz"
+#HOMEPAGE="https://github.com/shadowsocks/libQtShadowsocks"
+SRC_URI="https://github.com/UEForce/myebuilds/tree/master/net-proxy/libQtShadowsocks/files/v${MY_PV}.tar.gz -> ${P}.tar.gz"
 
 KEYWORDS="amd64 ~x86"
 SLOT="0"
